@@ -1,0 +1,19 @@
+
+/* This will grab all the h1 tags */
+h1
+{
+  color: red;
+}
+
+/* this is the class */
+.container
+{
+  background-color: #9C4FF5;
+  width: 600px;
+  margin:auto;
+}
+/* This is an id */
+#dog {
+  background-color: pink;
+  with: 400px;
+}
