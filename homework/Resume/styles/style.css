@@ -1,0 +1,118 @@
+body {
+  background-color: pink;
+}
+
+
+
+p{
+  color: pink;
+}
+
+p{
+  font-family: 'Raleway';
+}
+
+.navigation {
+display: table;
+margin: 0 auto;
+margin-top: 30px;
+margin-bottom: 80px;
+
+}
+
+.horizontaLine {
+padding-top: 20px;
+
+}
+.horizontaLine li {
+display: inline;
+margin: 40px;
+padding: 20px 60px 20px 60px;
+background-color: white;
+width: 10%;
+}
+
+.horizontaLine li a {
+  color: gray;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.horizontaLine li a:hover {
+  color: pink;
+}
+h1
+{
+  color: rgb(207, 66, 112);
+  font-family: 'Raleway';
+}
+
+.container h1 {
+  font-size: 3em;
+}
+
+.container h2 {
+  font-size: 2em;
+}
+
+h2
+{
+  color:rgb(242, 62, 211);
+  font-family: 'Raleway';
+}
+
+#dog {
+  background-color:rgb(103, 10, 63);
+  with: 400px;
+}
+
+#dog
+{
+  width: 80%;
+  margin: auto;
+}
+
+.sidebar{
+  float: left;
+  margin-left: 60px;
+  padding: 20px;
+  background-color:rgb(146, 153, 140);
+  width: 25%;
+
+}
+.container
+{
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: white;
+  width: 80%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 20px;
+}
+.sidebar {
+  float: none;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: white;
+  width: 80%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 20px;
+}
+a {
+  border: 1px solid;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+}
+
+a:focus {
+  outline: 4px dotted #e73;
+  outline-offset: 4px;
+  background: #ffa;
+}
+li {
+  color: rgb(241, 232, 11);
+}
