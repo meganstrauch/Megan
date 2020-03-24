@@ -1,0 +1,131 @@
+body
+{
+  margin: 0px;
+  background-color: #8b8787;
+}
+
+hr
+{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.header
+{
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(42, 42, 42, .7);
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+}
+.header h1
+{
+    width: 50%;
+    margin: 0px;
+    left: 5%;
+    top: 25%;
+    position: relative;
+    color: white;
+    font-family: 'Raleway';
+}
+.header ul
+{
+  float: right;
+  width: 40%;
+  list-style-type: none;
+  margin-top: -15px;
+}
+.header nav ul li
+{
+  display: inline;
+  margin: 30px;
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: lighter;
+}
+.header nav ul li a
+{
+  color: white;
+  text-decoration: none;
+}
+.header li a:hover {
+  color: green;
+}
+.header li
+{
+padding: 10px 30px 10px 30px;
+background-color: black;
+width: 10%;
+}
+
+.parallax
+{
+  margin-top: 10vh;
+  height: 80vh;
+  /* YOU CAN ATTACH YOUR IMAGE TO THE BACKGROUND OF YOUR ELEMENTS */
+  background-image:url("../img/healthfoods.jpg");
+  background-size: 100% auto;
+  /* THIS IS WHAT IT MAKES YOUR IMAGE FIXED TO THE BACKGROUND INSTEAD
+   OF MOVING WITH YOUR OTHER ELEMENTS */
+  background-attachment: fixed;
+  /* PLACE THE IMAGE IN THE MIDDLE */
+  background-position: top center;
+}
+
+.parallax h2
+{
+  /* BE IN THE MIDDLE */
+  margin: auto;
+  /* PUT SOME SPACE ON TOP OF THE TITLE SO IT CAN BE IN THE MIDDLE OF THE IMAGE */
+  padding-top: 15%;
+  text-align: center;
+  font-family: 'Anton';
+  font-size: 60px;
+  color: white;
+}
+
+
+
+.info h2
+{
+  font-family: 'Raleway';
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  background-color: rgb(255, 255, 255, .9);
+}
+.info img
+{
+  width:50%;
+  align: center;
+}
+.paragraph
+{
+  font-family: 'Raleway';
+  font-size: 25px;
+  color: black;
+  text-align: center;
+}
+
+.footer
+{
+    height: 20vh;
+    background-color:black;
+}
+.footer div
+{
+
+  width: 100%;
+  margin:  auto;
+  color: white;
+
+}
+
+.footer li
+{
+  width: 100%;
+  margin:  auto;
+  color: white;
+
+}
