@@ -37,21 +37,22 @@ $("footer").mouseleave(function() {
 
 // Here goes your jQuery :
 
-$("#hide").click(function(){
+$("#hide1").click(function(){
   $(".smallGridBug div:first-child p").hide();
 });
 
-$("#show").click(function(){
+$("#show1").click(function(){
   $(".smallGridBug div:first-child p").show();
 });
-$("#toggle").click( function(){
+$("#toggle1").click( function(){
   $(".smallGridBug div:nth-child(2) p").toggle();
 });
-$("#html").click(function() {
+$("#html1").click(function() {
   $(".smallGridBug div:nth-child(3) p").html("HI :) <b>How are you</b>!");
 });
-$("#css").click(function(){
-  $(".box").css("background-color", "black");
+$("#css1").click(function(){
+  $(".smallGridBug div:nth-child(4) p").css("color", "lightblue");
 });
+
 
 });
