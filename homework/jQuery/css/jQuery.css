@@ -153,7 +153,18 @@ aside ul li
    text-align: center;
    font-size: 12pt;
 }
-.dark .message span
+.body .message span
 {
   color: white;
 }
+
+.body .link
+{
+  text-decoration: none;
+  color: white;
+  transition: color .3s;
+}
+.body .link:hover
+  {
+    color: #2112d4;
+  }
