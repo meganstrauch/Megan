@@ -7,6 +7,7 @@ body
 h1
 {
   text-align: center;
+  font-family: 'Roboto';
 }
 
 
@@ -22,6 +23,20 @@ h2
   font-weight: bold;
   color: white;
 }
+
+h3
+{
+  margin: 0;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: White;
+}
+
 p
 {
   color: white;
@@ -44,46 +59,51 @@ p
         "sid ma"
         "foo ma"
         "foo ma";
+
       grid-row-gap: 30px;
       grid-column-gap: 30px;
 }
 
-.dark .mainGrid header
+.body .mainGrid header
 {
   border-radius: 5px;
   background-color: #4fa5ab;
   grid-area: he;
 
 }
-.dark .mainGrid aside
+.body .mainGrid aside
 {
   border-radius: 5px;
   background-color: #4fa5ab;
   grid-area: sid;
 }
-.dark .mainGrid main
+.body .mainGrid main
 {
   border-radius: 5px;
   background-color: #4fa5ab;
   grid-area: ma;
 }
-.dark .mainGrid footer
+.body .mainGrid footer
 {
   border-radius: 5px;
   background-color: #4fa5ab;
   grid-area: foo;
 }
-.fade img
+.main img
 {
   width: 80%;
   height: 75%;
 
 }
-.dark aside h2
+.body aside h2
 {
-  background-color: #22A8AA;
+  background-color: #0b6080;
 }
 
+.body aside h3
+{
+  background-color: #0b6080;
+}
 aside ul
 {
   list-style-type: none;
@@ -95,7 +115,7 @@ aside ul li
   height: 57px;
   position: relative;
 }
-.dark aside ul li a
+.body aside ul li a
 {
   display: block;
   width: 100%;
@@ -112,36 +132,28 @@ aside ul li
   margin: 0 auto;
   font-size: 12pt;
   word-break:break-word;
+  font-family: 'Roboto';
 }
 .text p
 {
   font-weight: 300;
+  font-family: 'Roboto';
 }
-.dark .accent
+.text li
 {
+  font-weight: 300;
+  font-family: 'Roboto';
   color: white;
 }
-.light .accent
+
+.message
 {
-  color: black;
+   width: 70%;
+   margin: 0 auto;
+   text-align: center;
+   font-size: 12pt;
 }
-.dark .link
+.dark .message span
 {
-  text-decoration: none;
-  color: #22A8AA;
-  transition: color .3s;
-}
-.dark .link:hover
-{
-  color: #098f91;
-}
-.light .link
-{
-  text-decoration: none;
-  color: #22A8AA;
-  transition: color .3s;
-}
-.light .link:hover
-{
-  color: #098f91;
+  color: white;
 }
