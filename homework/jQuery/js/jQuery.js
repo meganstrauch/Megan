@@ -1,5 +1,17 @@
 $(document).ready(function(){
 
+  $(".fancyTitle").lettering();
+
+  $(".word_split").lettering('words');
+
+  $(".line_split").lettering('lines');
+
+  $(".rotate").lettering('words') .children("span").css({'display':'inline-block', '-webkit-transform':'rotate(-25deg)'});
+
+  $(".title3").lettering()
+  .children("span").css({'display':'inline-block', '-webkit-transform':'rotate(-15deg)'});
+
+
   $("#set2").hide();
   $("#set3").hide();
   $("#set4").hide();
@@ -46,7 +58,7 @@ $("#button5").click(function(){
 });
 
 $("#button4").click(function(){
-  $(".main div:nth-child(4) p").css("color", "pink");
+  $(".main div:nth-child(4) p").css("color", "darkblue");
 });
 
 $("#button2").click(function() {
@@ -68,6 +80,7 @@ $("#button4").click(function() {
 $("#button5").click(function() {
   $(".body h2").html("Swimming With Sharks ");
 });
+
 
 
 });

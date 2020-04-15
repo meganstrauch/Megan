@@ -4,14 +4,55 @@ body
   background-color: rgb(0, 128, 156);
 }
 
-h1
+.fancyTitle
 {
   text-align: center;
   font-family: 'Roboto';
 }
 
+.fancyTitle .char1
+{
+  color: blue;
+}
+.fancyTitle .char2
+{
+  color: darkblue;
+}
+.fancyTitle .char3
+{
+  color: blue;
+}
+.fancyTitle .char5
+{
+  color: darkblue;
+}
+.fancyTitle .char6
+{
+  color: blue;
+}
+.fancyTitle .char7
+{
+  color: darkblue;
+}
+.fancyTitle .char8
+{
+  color: blue;
+}
+.fancyTitle .char9
+{
+  color: darkblue;
+}
+.fancyTitle .char10
+{
+  color: blue;
+}
+.fancyTitle .char11
+{
+  color: darkblue;
+}
 
-h2
+
+.word_split
 {
   margin: 0;
   height: 60px;
@@ -22,6 +63,15 @@ h2
   font-family: 'Roboto';
   font-weight: bold;
   color: white;
+}
+
+.word_split .word1
+{
+  color: green;
+}
+.word_split .word2
+{
+  color: lightgreen;
 }
 
 h3
@@ -37,11 +87,84 @@ h3
   color: White;
 }
 
+.title3 .char1
+{
+  color: green;
+}
+.title3 .char2
+{
+  color: lightgreen;
+}
+.title3 .char3
+{
+  color: green;
+}
+.title3 .char4
+{
+  color: lightgreen;
+}
+.title3 .char5
+{
+  color: green;
+}
+.title3 .char6
+{
+  color: lightgreen;
+}
+.title3 .char7
+{
+  color: green;
+}
+.title3 .char8
+{
+  color: lightgreen;
+}
+.title3 .char9
+{
+  color: green;
+}
+.title3 .char10
+{
+  color: lightgreen;
+}
+
+
+
+.line_split .line1
+{
+  color: blue;
+}
+.line_split .line2
+{
+  color: darkblue;
+}
+.line_split .line3
+{
+  color: rgb(7, 72, 77);
+}
+.line_split .line4
+{
+  color:lightblue;
+}
+.line_split .line5
+{
+  color:rgb(12, 5, 59);
+}
+
+.rotate .word1
+{
+ color: blue;
+}
+.rotate .word2
+{
+ color: darkblue;
+}
+
+
 p
 {
   color: white;
 }
-
 
 
 .mainGrid
