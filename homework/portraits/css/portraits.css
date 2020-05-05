@@ -1,0 +1,169 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: 'Anton';;
+
+}
+header
+{
+  width: 100%;
+  height: 10vh;
+}
+nav
+{
+  margin: 0;
+  padding: 0;
+}
+nav ul
+{
+
+  display: block;
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  height: 10vh;
+}
+nav ul li
+{
+  margin-right: 10px;
+  float: right;
+  display: inline-block;
+  height: 100%;
+  width: 22%;
+  text-align: center;
+  line-height: 3;
+}
+nav ul li a
+{
+  padding: 10%;
+  font-size: 2.3vw;
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover
+{
+  color: rgb(207, 38, 123);
+}
+
+header div
+{
+  width: 50%;
+  float: left;
+}
+.logo
+{
+  width: 15%;
+  height: 10vh;
+  margin-left: 5vw;
+  text-align: center;
+  line-height: 3;
+  font-size: 40px;
+  color:rgb(207, 38, 123);
+}
+
+/* -------------- Header ---------------- */
+
+
+/* -------------- intro ----------------- */
+
+.intro
+{
+  height: 50vh;
+  padding: 30px;
+  margin-top: 20vh;
+  border-bottom: 1vh solid white;
+}
+
+h1
+{
+  margin: 0;
+  margin-top: 20vh;
+  float: center;
+  font-size: 4vw;
+  text-align: center;
+  line-height: .8;
+  font-family: 'Londrina Shadow';
+  color:rgb(207, 38, 123);
+}
+/* -------------- intro ----------------- */
+/* -------------- grid ----------------- */
+
+.grid
+{
+  margin: auto;
+  padding-top: 50px;
+  display: grid;
+  grid-template-areas:
+  ". p1  P2 ."
+  ". P3  p4 .";
+
+  grid-template-columns: .1fr .6fr .6fr .1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+}
+
+.grid div:first-child
+{
+  grid-area: p1;
+}
+.grid div:nth-child(2)
+{
+  grid-area: P2;
+}
+.grid div:nth-child(3)
+{
+  grid-area: P3;
+}
+.grid div:nth-child(4)
+{
+  grid-area: p4;
+}
+
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+/* -------------- grid ----------------- */
+
+
+/* -------------- footer ----------------- */
+
+
+aside
+{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+aside ul
+{
+    display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  height: 10vh;
+}
+aside ul li
+{
+  margin-right: 30px;
+  display: inline-block;
+}
+aside ul li a
+{
+  display: inline-block;
+  padding: 30%;
+  font-size: 2.3vw;
+  color: white;
+  text-decoration: underline;
+}
+aside ul li a:hover
+{
+  color: rgb(207, 38, 123);
+}
